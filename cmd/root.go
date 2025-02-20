@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/sergi/go-diff/diffmatchpatch"
 	"github.com/spf13/cobra"
 	"github.com/vitorfhc/webdiff/pkg/store/jsonstore"
 	"github.com/vitorfhc/webdiff/pkg/types"
@@ -72,11 +71,6 @@ func runCmdRun(cmd *cobra.Command, args []string) error {
 
 	for _, diff := range diffs {
 		fmt.Printf("Diff found in %q\n", diff.Target.URL)
-		fmt.Printf("SC: %d -> %d\n", diff.Old.StatusCode, diff.New.StatusCode)
-		dmp := diffmatchpatch.New()
-		diffs := dmp.DiffMain(diff.Old.Body, diff.New.Body, false)
-		fmt.Println(dmp.DiffPrettyText(diffs))
-		fmt.Println()
 	}
 
 	return nil
