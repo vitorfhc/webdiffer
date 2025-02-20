@@ -5,9 +5,9 @@ import (
 	"os"
 
 	"github.com/spf13/cobra"
-	"github.com/vitorfhc/webdiff/pkg/store/jsonstore"
-	"github.com/vitorfhc/webdiff/pkg/types"
-	"github.com/vitorfhc/webdiff/pkg/webwatcher"
+	"github.com/vitorfhc/webdiffer/pkg/store/jsonstore"
+	"github.com/vitorfhc/webdiffer/pkg/types"
+	"github.com/vitorfhc/webdiffer/pkg/webwatcher"
 )
 
 const (

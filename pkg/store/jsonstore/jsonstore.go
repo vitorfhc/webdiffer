@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/vitorfhc/webdiff/pkg/helpers"
-	"github.com/vitorfhc/webdiff/pkg/store"
-	"github.com/vitorfhc/webdiff/pkg/types"
+	"github.com/vitorfhc/webdiffer/pkg/helpers"
+	"github.com/vitorfhc/webdiffer/pkg/store"
+	"github.com/vitorfhc/webdiffer/pkg/types"
 )
 
 type JSONStore struct {

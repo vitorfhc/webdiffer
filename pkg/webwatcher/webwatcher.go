@@ -4,8 +4,8 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/vitorfhc/webdiff/pkg/store"
-	"github.com/vitorfhc/webdiff/pkg/types"
+	"github.com/vitorfhc/webdiffer/pkg/store"
+	"github.com/vitorfhc/webdiffer/pkg/types"
 )
 
 type WebDiffer struct {

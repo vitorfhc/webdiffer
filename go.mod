@@ -1,4 +1,4 @@
-module github.com/vitorfhc/webdiff
+module github.com/vitorfhc/webdiffer
 
 go 1.23.0
 

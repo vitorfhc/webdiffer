@@ -1,7 +1,7 @@
 package store
 
 import (
-	"github.com/vitorfhc/webdiff/pkg/types"
+	"github.com/vitorfhc/webdiffer/pkg/types"
 )
 
 type TargetStore interface {
